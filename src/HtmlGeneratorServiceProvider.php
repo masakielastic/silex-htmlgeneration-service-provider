@@ -10,10 +10,6 @@ class HtmlGeneratorServiceProvider implements ServiceProviderInterface
 {
     public function register(Application $app)
     {
-        $app['htmlgen.baseUri'] = '/';
-        $app['htmlgen.content.dir'] = __DIR__.'/content'; 
-        $app['htmlgen.public.dir'] = __DIR__.'/public';
-
         $app['htmlgen'] = $app->protect(function () use ($app) {
 
             $it = new \DirectoryIterator($app['htmlgen.content.dir']);
