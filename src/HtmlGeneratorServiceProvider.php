@@ -16,7 +16,7 @@ class HtmlGeneratorServiceProvider implements ServiceProviderInterface
 
         $app['htmlgen'] = $app->protect(function () use ($app) {
 
-            $it = new DirectoryIterator($app['htmlgen.content.dir']);
+            $it = new \DirectoryIterator($app['htmlgen.content.dir']);
 
             foreach ($it as $file) {
 
