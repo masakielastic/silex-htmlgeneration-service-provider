@@ -9,26 +9,14 @@ Html Generation Service Provider for Silex
 ```javascript
 {
     "repositories": [
-    {
-        "type": "package",
-        "package": {
-            "name": "masakielastic/silex-html-generation-service-provider",
-            "version": "0.1.0",
-            "type": "package",
-            "source": {
-                "url": "https://github.com/masakielastic/silex-html-generation-service-provider.git",
-                "type": "git",
-                "reference": "master"
-            },
-            "autoload": {
-                "psr-4": { "Masakielastic\\Silex\\": "src/" }
-            }
+       {
+            "type": "vcs",
+            "url": "https://github.com/masakielastic/silex-htmlgeneration-service-provider"
         }
-    }
     ],
     "require": {
         "silex/silex": "~1.3",
-        "masakielastic/silex-html-generation-service-provider": "*"
+        "masakielastic/silex-html-generation-service-provider": "dev-master"
     }
 }
 ```
