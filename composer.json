@@ -1,6 +1,14 @@
 {
     "name": "masakielastic/silex-html-generation-service-provider",
     "version": "0.1.0",
+    "authors": [
+        {
+            "name": "Masaki Kagaya",
+            "email": "masakielastic@gmail.com",
+            "homepage": "https://github.com/masakielastic",
+            "role": "Developer"
+        }
+    ],
     "autoload": {
         "psr-4": { "Masakielastic\\Silex\\": "src/" }
     },
