@@ -1,6 +1,13 @@
 {
     "name": "masakielastic/silex-html-generation-service-provider",
     "version": "0.1.0",
+    "license": "MIT",
+    "homepage": "https://github.com/masakielastic/silex-htmlgeneration-service-provider",
+    "description": "generating static HTML files from routing",
+    "keywords": [
+        "silex",
+        "html"
+    ],
     "authors": [
         {
             "name": "Masaki Kagaya",
@@ -12,5 +19,7 @@
     "autoload": {
         "psr-4": { "Masakielastic\\Silex\\": "src/" }
     },
-    "license": "MIT"
+    "require": {
+        "silex/silex": "~1.3"
+    }
 }
